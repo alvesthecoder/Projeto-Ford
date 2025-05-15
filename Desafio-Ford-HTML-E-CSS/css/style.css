@@ -1,0 +1,391 @@
+* {
+    font-family: sans-serif;
+    padding: 0;
+    box-sizing: border-box;
+    margin: 0;
+}
+
+body {
+    margin: 0;
+}
+
+#logo-ford-256 {
+    width: 50px;
+    padding: 0px 10px;
+
+}
+header {
+    background-color: #ffffff;
+    color: white;
+    display: flex;
+    align-items: center;
+    gap: 599px;
+
+}
+
+main img {
+    width: 65%;
+    border-radius: 15px;
+    display: block;
+    margin: 0 auto;
+    height: auto;
+}
+
+#imagem_main_Ranger{
+   text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+} 
+#imagem_img {
+    width: 90%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+}
+
+#imagem_p {
+    text-align: center;
+    margin-top: 10px;
+}
+
+.redes_sociais {
+    display: flex;
+    margin: 0 5px;
+    gap: 0.4rem; /* Espaçamento entre os ícones */
+    align-items: center;
+}
+
+#formulario {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+    max-width: 300px;
+    width: 100%;
+    margin-top: 20px;
+    
+}
+
+#formulario h2 {
+    margin-bottom: 10px;
+}
+
+#formulario_input,
+#formulario_select {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+#formulario_button {
+    padding: 12px;
+    background-color: #0033cc;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.content {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 60px;
+    flex-wrap: wrap;
+    padding: 5px;
+}
+
+.car-image {
+    max-width: 400px;
+}
+
+.redes_sociais {
+    margin: 12px 0;
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+}
+
+.redes_sociais a {
+    width: 30px;
+    height: 30px;
+    transition: transform 0.3s;
+}
+
+
+
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 30px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #0033cc;
+    font-weight: bold;
+}
+
+#redes_sociais_titulo {
+    color: white;
+    font-size: 12px;
+    height: 5px;
+}
+
+#links{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+/* lançamento*/
+
+
+.car-comparison {
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    flex-wrap: wrap;
+  }
+
+  .car-card {
+    background-color: #fff;
+    border: 2px solid #ddd;
+    border-radius: 10px;
+    width: 200px;
+    padding: 1rem;
+    position: relative;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+  }
+
+  .car-card img {
+    width: 100%;
+    height: auto;
+  }
+
+  .car-card input[type="checkbox"] {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    width: 20px;
+    height: 20px;
+  }
+
+  .car-title {
+    font-weight: 600;
+    font-size: 1rem;
+    margin: 0.5rem 0 0.25rem 0;
+    color: #222;
+  }
+
+  .car-desc {
+    font-size: 0.8rem;
+    color: #555;
+    margin-bottom: 0.25rem;
+  }
+
+  .car-price {
+    font-weight: 600;
+    font-size: 0.9rem;
+    color: #003366;
+  }
+
+  .compare-button {
+    display: inline-block;
+    margin-top: 2rem;
+    padding: 0.75rem 2rem;
+    background-color: #003366;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    font-weight: 500;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+
+  .compare-button:hover {
+    background-color: #004080;
+  }
+
+iframe{
+    width: 100%;
+    height: 600px;
+}
+.tabela{
+    display: flex;
+    justify-content: space-around;
+    padding: 16px;
+    margin: auto;
+}
+table{
+    text-align: center;
+}
+table th{
+    color: darkblue;
+    font-size: 19px;
+}
+table td{
+    font-size: 20px;
+}
+.tabela-contato{
+    border: 1px solid #ccc;
+    padding: 12px;
+    text-align: center;
+}
+.texto{
+    font-size:  20px;
+}
+
+.carro_1,
+.carro_2,
+.carro_3 {
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    vertical-align: middle;
+}
+.botao-comparar{
+    text-align: center;
+    padding: 50px;
+
+}
+.botao-comparar button{
+    width: 500px;
+    cursor: pointer;
+    margin-bottom: 5%;
+}
+
+.caixa{
+    display: flex;
+}
+
+button{
+    background-color: darkblue;
+    border-radius: 15px;
+    color: #fff;
+    height: 44px;
+}
+
+@media (max-width: 768px) {
+    header {
+        flex-direction: column;
+        align-items: center;
+        padding: 10px;
+        gap: 10px;
+    }
+   
+    .tabela{
+        overflow: auto;
+        width: 90%;
+    }
+    .ford-logo {
+        height: 25px;
+    }
+
+    nav {
+        flex-direction: column;
+        gap: 10px;
+        align-items: center;
+    }
+
+    .content {
+        flex-direction: column;
+        align-items: center;
+        padding: 20px;
+        gap: 20px;
+    }
+
+    .car-image {
+        width: 100%;
+        max-width: 100%;
+        height: auto;
+        border-radius: 10px;
+    }
+
+    #formulario {
+        width: 100%;
+        max-width: 90%;
+        padding: 0 15px;
+    }
+
+    #formulario form {
+        gap: 10px;
+    }
+
+    #formulario input,
+    #formulario select,
+    #formulario button {
+        width: 100%;
+        font-size: 1rem;
+    }
+
+    .redes_sociais {
+        flex-direction: row;
+        justify-content: center;
+        flex-wrap: wrap;
+        gap: 10px;
+    }
+
+    .redes_sociais img {
+        width: 15px;
+        height: 15px;
+    }
+
+    .logo-footer {
+        height: 30px;
+        display: flex;
+        padding: 0%;
+    }
+
+    .botao-comparar button{
+        width: 50%;
+    
+    }
+    .copyright{
+        font-size: 10px;
+    }
+
+    #logo-ford-256 {
+        width: auto;
+    
+    }
+#img-footer{
+    height: 50px;
+    display: block;
+    border: none;
+}
+    
+  main{
+    padding: 30px;
+    text-align: center;
+    height:700px;
+  }
+  
+}
+
+footer {
+    background-color: darkblue;
+    width: 100%;
+    height: 10%;
+    display: flex;
+    justify-content: space-between; /* Cria espaço entre os elementos */
+    align-items: center;
+    padding: 10px;
+    margin: 0; /* Remove qualquer margem no footer */
+    cursor: pointer;
+    position: fixed ;
+    bottom: 0;
+        text-align: center;
+        padding: 20px 10px;
+}
+.copyright{
+color: #fff;
+}
+
